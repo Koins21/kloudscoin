@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=kloudcoins
+Comment=kloudcoins P2P Cryptocurrency
+Comment[fr]=kloudcoins, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=kloudcoins, eşten eşe kriptografik sanal para birimi
+Exec=kloudcoins-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/kloudcoins;
+Categories=Office;Finance;

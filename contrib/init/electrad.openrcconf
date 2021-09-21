@@ -1,0 +1,26 @@
+# /etc/conf.d/kloudcoinsd: config file for /etc/init.d/kloudcoinsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/kloudcoins/kloudcoins.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/kloudcoinsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/kloudcoinsd.pid"
+
+# Where to write kloudcoinsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/kloudcoinsd"
+
+# User and group to own kloudcoinsd process
+#BITCOIND_USER="kloudcoins"
+#BITCOIND_GROUP="kloudcoins"
+
+# Path to kloudcoinsd executable
+#BITCOIND_BIN="/usr/bin/kloudcoinsd"
+
+# Nice value to run kloudcoinsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
